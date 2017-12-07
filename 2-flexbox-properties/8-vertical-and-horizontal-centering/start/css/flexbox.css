@@ -1,0 +1,17 @@
+
+/* ================================= 
+  Flexbox
+==================================== */
+
+.container {
+	display: flex;
+	min-height: 50vh;
+    
+    /* These two place item perfectly centered in container */
+   /* justify-content: center;*/
+   /* align-items: center;*/
+}
+
+.item {
+    margin: auto; /* places perfectly in center, too */
+}

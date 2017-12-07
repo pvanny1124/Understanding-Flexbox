@@ -1,0 +1,21 @@
+
+/* ================================= 
+  Flexbox
+==================================== */
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.item {
+    /*flex-grow: 1;
+     flex-basis: 100px;*/
+    /* flex is a shorthand for flex-grow, flex-basis, and flex-shrink*/
+    /* Leaving just flex-grow value is okay, other values are default*/
+    flex: 1 200px;
+}
+
+.item-2 {
+    flex-grow: 2;
+}
